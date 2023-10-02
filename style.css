@@ -1,0 +1,671 @@
+:root {
+    --bitcoin-orange: #f7931a;
+    --soft-orange:  #ffe9d5 ;
+    --secondary-blue: #1a9af7;
+    --soft-blue: #e7f5ff ;
+    --warm-black:  #282623 ;
+    --black: #282623  ;
+    --grey: #bababa  ;
+    --off-white: #faf8f7  ;
+    --just-white: #fff  ;
+}
+
+*
+{
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+
+html
+{
+    font-size: 62.5%;
+    font-family:'DM Sans',sans-serif;
+    width: 100%;
+}
+
+header
+{
+    position: relative;
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    width: 100%;
+    min-width: 320px;
+    height: 334px;
+    text-align: center;
+    background: linear-gradient(207.8deg, #201E1C 16.69%, #F7931A 100%);
+}
+
+header img 
+{
+    width: 150px;
+    height: 24px;
+    margin-top: 60px;
+    align-self : center;
+}
+
+.header--title-container
+{
+    width: 90%;
+    max-width: 900px;
+    min-width: 288px;
+    height: 218px;
+    margin-top: 50px;
+    text-align: center;
+    align-self: center;
+}
+
+.header--title-container h1
+{
+    color: var(--just-white);
+    font-size: 2.4rem;
+    font-weight: bold;
+    line-height: 2.6rem;
+    text-align: center;
+}
+
+.header--title-container p
+{
+    margin-top: 25px;
+    font-size: medium;
+    font-size: 1.4rem;
+    line-height: 1.8rem;
+    text-align: center;
+    color: var(--soft-orange);
+    padding: 5px 50px;
+}
+
+.header--title-container .header--button    
+{
+    position: absolute;
+    top: 270px;
+    right: 0;
+    left: 0;    
+    margin-right: auto;
+    margin-left: auto;
+    display: block;
+    margin-top: 35px;
+    padding: 15px;
+    width: 229px;
+    height: 48px;
+    background-color: var(--just-white);
+/*Sombra*/
+    box-shadow:  0px 4px 8px rgba(89, 73, 30, 0.16);
+    border: none;
+    border-radius: 5px;
+    font-size: 1.4rem;
+    text-decoration: none;
+    color: var(--warm-black);
+    font-weight: bold;
+    line-height: 18px;
+    
+}
+
+.header--button span
+{
+    display: inline-block;
+    width: 13px;
+    height: 8px;
+    margin-left: 10px;
+    background-image: url('/PRACTICAS-\ \ Maquetado\ Mobile\ First-20230825T012343Z-001/ASSETS/icons/down-arrow.svg');
+}
+
+main
+{
+    min-width: 320px;
+    width: 100%;
+    height: auto;
+    background-color: var(--off-white);
+}
+
+
+.main--exchange-container
+{
+    width: 100%;
+    height: ;
+    text-align: center;
+    padding-bottom: 30px;
+    padding-top: 10px;
+}
+
+.main--background-img
+{
+    width: 200px;
+    height: 200px;
+    background-image: url(/PRACTICAS-\ \ Maquetado\ Mobile\ First-20230825T012343Z-001/ASSETS/SVG/bitcoin_logo.svg) ;
+    background-repeat: no-repeat;
+    position: relative;
+    right: 0;
+    left: 0;
+    /*margin-right: auto;
+    margin-left: auto;
+    margin-top: 50px;
+    */
+    background-position: center;
+    background-size: cover;
+    margin: 50px auto 50px auto;
+}
+
+.main--title-container
+{
+    margin: 0 auto;
+    width: 90%;
+    min-width: 288px;
+    max-width: 900px;
+}
+
+
+.main--title-container h2
+{
+    color: var(--warm-black);
+    font-size: 2.4rem;
+    font-weight: 700px;
+    text-align: center;
+    padding: 10px 50px;
+    line-height: 2.6rem;
+}
+
+
+.main--title-container p
+{
+    color: #757575;
+    font-size: 1.4rem;
+    font-weight: 500px;
+    text-align: center;
+    padding: 10px 50px;
+    line-height: 1.6rem;
+}
+
+
+.main--tables-container, .main--tables-container_2
+{
+    padding-top: 50px;
+    width: 80%;
+    max-width: 500px;
+    min-width: 240px;
+    height: 360px;
+    margin: 0 auto;
+    font-family: "Inter" , sans-serif;
+}
+
+.main--tables-container .main--tables-container-p
+{
+    line-height: 2.3rem;
+    font-size: 1.8rem;
+    font-weight: bold;
+    text-align: left; 
+    color: var(--bitcoin-orange);
+    padding-left: 70px;
+}
+
+.table-container 
+{
+    width: 90%;
+    min-width: 230px;
+    max-width: 300px;
+    height: 250px;
+    margin: 0 auto;
+}
+
+.table-container table, .table_2
+{
+    width: 100%;
+    height: 100%;
+}
+
+.table-container td
+{
+    width: 50%;
+    font-size: 1.6rem;
+    font-weight: 500;
+    line-height: 1.9rem;
+    color: var(--grey);
+    background-color: var(--just-white);
+}
+
+.icon_down
+{
+    display: inline-block;
+    background-repeat: no-repeat;
+    background-image: url(/PRACTICAS-\ \ Maquetado\ Mobile\ First-20230825T012343Z-001/ASSETS/icons/trending-down.svg);
+    width: 15px;
+    height: 15px;
+    margin-left: 10px;
+    background-position: center;
+    background-size: cover;
+}
+    
+    
+.icon_up
+{
+    display: inline-block;
+    background-repeat: no-repeat;
+    background-image: url(/PRACTICAS-\ \ Maquetado\ Mobile\ First-20230825T012343Z-001/ASSETS/icons/trending-up.svg);
+    width: 15px;
+    height: 15px;
+    margin-left: 10px;
+    background-position: center;
+    background-size: cover;
+}
+
+.table-container .table_top-left, .table_2 .table_top-left
+{
+    border-radius: 15px 0 0 0;
+}
+
+.table-container .table_top-right 
+{
+    border-radius: 0 15px 0 0;
+}
+
+
+.table-container .table_bottom-left 
+ {
+    border-radius: 0 0 0 15px;
+}
+
+.table-container .table_bottom-right 
+{
+    border-radius: 0 0 15px 0;
+}
+
+
+.table-right
+
+{
+    font-weight: normal;
+    font-size: 1.4rem;
+    color: #757575;
+    line-height: 1.7rem;
+}
+
+
+.table-date
+{
+    width: 200px;
+    height: 30px;
+    margin: 0 auto;
+    padding: 8px;
+    background-color: var(--soft-orange);
+    border-radius: 8px;
+    margin-top: 15px;
+}
+
+.table-date p, .table-date_2 p
+{
+    font-size: 1.2rem;
+    line-height: 1.5rem;
+    color: var(--warm-black);
+    font-weight: 300;
+}
+
+
+
+.main--tables-container_2 .main--tables-container-p_2
+{
+    line-height: 2.3rem;
+    font-size: 1.8rem;
+    font-weight: bold;
+    text-align: left;
+    color: var(--secondary-blue);
+    margin-left: 80px;
+}
+
+
+.table-date_2
+{
+    width: 200px;
+    height: 30px;
+    margin: 0 auto;
+    padding: 8px;
+    background-color: var(--soft-blue);
+    border-radius: 8px;
+    margin-top: 15px;
+}
+
+
+.main-product-text
+{
+    position: relative;
+    width: 100%;
+    min-width: 320px;
+    height: auto;
+    padding: 20px 10px;
+    background-color: #201E1C;
+}
+
+.logo-patata
+{
+    position: absolute;
+    background-image: url(/PRACTICAS-\ \ Maquetado\ Mobile\ First-20230825T012343Z-001/ASSETS/icons/batata.svg);
+    background-repeat: no-repeat;
+    background-position: center;
+    width: 40px;
+    height: 25px;
+    left: calc(50% - 20px);  /*  CACULO AYUDA A POSICIONAR ENMEDIO PEEERO ES NECESARIO QUITAR TAMAÑO DEL LOGO PARA QUE QUE QUEDE JUSTO*/
+    top: -10px;
+}
+
+
+.product-detail 
+{
+    width: 90%;
+    min-width: 288px;
+    height: auto;
+    margin: 0 auto;
+    margin-top: 50px;
+    text-align: center;
+}
+
+.product-detail h2
+{
+    margin-bottom: 20px;
+    font-size: 2.4rem;
+    color: var(--just-white);
+    font-weight: bold;
+    line-height: 2.6rem;
+}
+
+.product-detail p
+{
+    margin-bottom: 20px;
+    font-size: 1.4rem;
+    line-height: 1.8rem;
+    font-size: 500;
+    color: #808080;
+}
+
+
+.product-card
+{
+    width: 100%;
+    min-width: 288px;
+    max-width: 400px;
+    min-height: 150px;
+    margin: 15px auto;
+    padding: 15px;
+    background-color: var(--warm-black);
+    border-radius: 5px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.16);
+}
+
+.icon-clock
+{
+    background-image: url(/PRACTICAS-\ \ Maquetado\ Mobile\ First-20230825T012343Z-001/ASSETS/icons/clock.svg);
+    background-repeat: no-repeat;
+    background-position: left;
+    display: inline-block;
+    width: 30px;
+    height: 30px;
+    margin-bottom: 10px;
+    background-size: cover;
+}
+
+.icon-eye
+{
+    background-image: url(/PRACTICAS-\ \ Maquetado\ Mobile\ First-20230825T012343Z-001/ASSETS/icons/eye.svg);
+    background-repeat: no-repeat;
+    background-position: left;
+    display: inline-block;
+    width: 30px;
+    height: 30px;
+    margin-bottom: 10px;
+    background-size: cover;
+}
+
+.icon-money
+{
+    background-image: url(/PRACTICAS-\ \ Maquetado\ Mobile\ First-20230825T012343Z-001/ASSETS/icons/dollar-sign.svg);
+    background-repeat: no-repeat;
+    background-position: left;
+    display: inline-block;
+    width: 30px;
+    height: 30px;
+    margin-bottom: 10px;
+    background-size: cover;
+}
+
+
+.icon-check
+{
+    background-image: url(/PRACTICAS-\ \ Maquetado\ Mobile\ First-20230825T012343Z-001/ASSETS/icons/check-circle.svg);
+    background-repeat: no-repeat;
+    background-position: left;
+    display: inline-block;
+    width: 30px;
+    height: 30px;
+    margin-bottom: 10px;
+    background-size: cover;
+}
+
+.product-card-title
+{
+    line-height: 1.8rem;
+    font-size: 1.8rem;
+    font-weight: bold;
+    color: var(--just-white);
+    margin-bottom: 15px;
+    
+}
+
+.product-card-body
+{
+    line-height: 1.8rem;
+    font-size: 1.6rem;
+    color:#808080;
+    font-weight: 500;
+}
+
+.img-background
+{
+    background-image: url(/PRACTICAS-\ \ Maquetado\ Mobile\ First-20230825T012343Z-001/ASSETS/IMG/bitcoinbaby2x.png);
+    width: 100%;
+    min-width: 320px;
+    height: 50vh;
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center;
+}
+
+.img-background h2
+{
+    text-align: center;
+    color: var(--just-white);
+    font-weight: 700;
+    line-height: 2.6rem;
+    font-size: 2.4rem;
+    padding-top: 70px;
+}
+
+.main-plans-container
+{
+    width: 100%;
+    min-width: 320px;
+    text-align: center;
+    background-color: var(--off-white);
+    height: 600px;
+}
+
+
+.plans-title
+{
+    width: 90%;
+    min-width: 288px;
+    height: auto;
+    margin: 0 auto;
+    margin-bottom: 50px;
+}
+
+.plans-title h2
+{
+    padding-top: 50px;
+    font-size: 2.4rem;
+    font-weight: bold;
+    line-height: 2.6rem;
+    font-size: 2.4rem;
+    color: var(--warm-black);
+}
+
+.plans-title p
+{
+    padding-top: 30px;
+    font-weight: 500;
+    font-size: 1.4rem;
+    line-height: 18px;
+    color: #757575;
+}
+
+
+
+.plans-container--slide
+{
+    display: flex;
+    height: 316px;
+    overflow-x: scroll;
+    overscroll-behavior-x: contain;
+    scroll-snap-type: x proximity;
+   /* gap: 20px; */
+}
+
+
+.plans-container--slide::-webkit-scrollbar {
+    background-color: var(--soft-orange);
+    height: 4px;
+}
+
+.plans-container--slide::-webkit-scrollbar-thumb {
+    background-color: var(--bitcoin-orange);
+}
+
+
+
+.plans-container--card
+{
+    position: relative;
+    scroll-snap-align: center;
+    width: 70%;
+    margin: 50px 5px 0;
+    min-width: 190px;
+    max-width: 300px;
+    height: 250px;
+    padding: 0 15px;
+    background-color: var(--just-white);
+    border-radius: 15px;
+    box-shadow: 0 4px 8px rgb(89, 73, 30, 0.16);
+}
+
+.recomendado
+{
+    position: absolute;
+    background-color: var(--bitcoin-orange);
+    color: var(--just-white);
+    font-size: 1.2rem;
+    line-height: 1.4rem;
+    text-align: center;
+    padding: 7px;
+    font-weight: 700;
+    width: 120px;
+    height: 31px;
+    border-radius: 8px;
+    left: calc(50% - 60px);
+}
+
+
+
+.plan-card--title
+{
+    padding-top: 30px;
+    font-size: 1.4rem;
+    line-height: 1.8rem;
+    font-weight: 500;
+    color: var(--black);
+}
+
+.plan-card--price
+{
+    padding: 5px 0;
+    font-size: 5.3rem;
+    line-height: 6.3rem;
+    font-weight: bold;
+    color: var(--black);
+}
+
+.plan-card--price span
+{
+    font-weight: 500;
+    font-size: 1.2rem;
+    line-height: 1.5rem;
+    vertical-align: 25px;
+}
+
+.plan-card--save
+{
+    font-size: 1.2rem;
+    line-height: 1.4rem;
+    color: #757575;
+    text-align: center;
+}
+
+.plan-card--action
+{
+    height:48px;
+    width: 150px;
+    margin-top: 20px;
+    background-color: var(--off-white);
+    border: 2px solid var(--bitcoin-orang);
+    border-radius: 4px;
+    font-size: 1.4rem;
+    line-height: 1.8rem;
+    text-align: center;
+    font-weight: bold;
+    color: var(--black);
+        font-family: 'DM Sans', sans-serif;
+}
+
+.plan-card--action span
+{
+    display: inline-block;
+    width: 20px;
+    height: 20px;
+    background-image: url(/PRACTICAS-\ \ Maquetado\ Mobile\ First-20230825T012343Z-001/ASSETS/icons/orange-right-arrow.svg);
+    text-align: center;
+    vertical-align: text-bottom;
+}
+
+footer {
+    display: flex;
+    width: 100%;
+    height: 150px;
+    background-color: var(--bitcoin-orange);
+
+}
+
+footer section
+{
+    color: var(--just-white);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 50%;
+}
+
+footer .left ul
+{
+    font-size: 1.4rem;
+    list-style: none;
+    font-weight: 500;
+    line-height: 1.8rem;
+
+}
+
+.left li
+{
+    margin: 10px;
+}
+
+.left a
+{
+    text-decoration: none;
+    color: var(--just-white);
+}
