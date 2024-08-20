@@ -108,7 +108,7 @@ header img
     width: 13px;
     height: 8px;
     margin-left: 10px;
-    background-image: url('/PRACTICAS-\ \ Maquetado\ Mobile\ First-20230825T012343Z-001/ASSETS/icons/down-arrow.svg');
+    background-image: url('/ASSETS/icons/down-arrow.svg');
 }
 
 main
@@ -133,7 +133,7 @@ main
 {
     width: 200px;
     height: 200px;
-    background-image: url(/PRACTICAS-\ \ Maquetado\ Mobile\ First-20230825T012343Z-001/ASSETS/SVG/bitcoin_logo.svg) ;
+    background-image: url(/ASSETS/SVG/bitcoin_logo.svg) ;
     background-repeat: no-repeat;
     position: relative;
     right: 0;
@@ -228,7 +228,7 @@ main
 {
     display: inline-block;
     background-repeat: no-repeat;
-    background-image: url(/PRACTICAS-\ \ Maquetado\ Mobile\ First-20230825T012343Z-001/ASSETS/icons/trending-down.svg);
+    background-image: url(/ASSETS/icons/trending-down.svg);
     width: 15px;
     height: 15px;
     margin-left: 10px;
@@ -241,7 +241,7 @@ main
 {
     display: inline-block;
     background-repeat: no-repeat;
-    background-image: url(/PRACTICAS-\ \ Maquetado\ Mobile\ First-20230825T012343Z-001/ASSETS/icons/trending-up.svg);
+    background-image: url(/ASSETS/icons/trending-up.svg);
     width: 15px;
     height: 15px;
     margin-left: 10px;
@@ -338,7 +338,7 @@ main
 .logo-patata
 {
     position: absolute;
-    background-image: url(/PRACTICAS-\ \ Maquetado\ Mobile\ First-20230825T012343Z-001/ASSETS/icons/batata.svg);
+    background-image: url(/ASSETS/icons/batata.svg);
     background-repeat: no-repeat;
     background-position: center;
     width: 40px;
@@ -392,7 +392,7 @@ main
 
 .icon-clock
 {
-    background-image: url(/PRACTICAS-\ \ Maquetado\ Mobile\ First-20230825T012343Z-001/ASSETS/icons/clock.svg);
+    background-image: url(/ASSETS/icons/clock.svg);
     background-repeat: no-repeat;
     background-position: left;
     display: inline-block;
@@ -404,7 +404,7 @@ main
 
 .icon-eye
 {
-    background-image: url(/PRACTICAS-\ \ Maquetado\ Mobile\ First-20230825T012343Z-001/ASSETS/icons/eye.svg);
+    background-image: url(/ASSETS/icons/eye.svg);
     background-repeat: no-repeat;
     background-position: left;
     display: inline-block;
@@ -416,7 +416,7 @@ main
 
 .icon-money
 {
-    background-image: url(/PRACTICAS-\ \ Maquetado\ Mobile\ First-20230825T012343Z-001/ASSETS/icons/dollar-sign.svg);
+    background-image: url(/ASSETS/icons/dollar-sign.svg);
     background-repeat: no-repeat;
     background-position: left;
     display: inline-block;
@@ -429,7 +429,7 @@ main
 
 .icon-check
 {
-    background-image: url(/PRACTICAS-\ \ Maquetado\ Mobile\ First-20230825T012343Z-001/ASSETS/icons/check-circle.svg);
+    background-image: url(/ASSETS/icons/check-circle.svg);
     background-repeat: no-repeat;
     background-position: left;
     display: inline-block;
@@ -459,7 +459,7 @@ main
 
 .img-background
 {
-    background-image: url(/PRACTICAS-\ \ Maquetado\ Mobile\ First-20230825T012343Z-001/ASSETS/IMG/bitcoinbaby2x.png);
+    background-image: url(/ASSETS/IMG/bitcoinbaby2x.png);
     width: 100%;
     min-width: 320px;
     height: 50vh;
@@ -628,7 +628,7 @@ main
     display: inline-block;
     width: 20px;
     height: 20px;
-    background-image: url(/PRACTICAS-\ \ Maquetado\ Mobile\ First-20230825T012343Z-001/ASSETS/icons/orange-right-arrow.svg);
+    background-image: url(/ASSETS/icons/orange-right-arrow.svg);
     text-align: center;
     vertical-align: text-bottom;
 }
